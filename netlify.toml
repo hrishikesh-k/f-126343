@@ -1,0 +1,14 @@
+[build]
+  command = "npm -v"
+
+[[redirects]]
+  force = true
+  from = "https://f-126343-2.tejalshinde.com/"
+  to = "/page-1/"
+  status = 200
+                  
+[[redirects]]
+  force = true
+  from = "https://f-126343-2.tejalshinde.com/*"
+  to = "https://f-126343-1.tejalshinde.com/:splat"
+  status = 301
